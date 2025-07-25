@@ -1,2 +1,15 @@
-# IOT-Sensor-Failure-Detection
-IoT Sensor Failure Detection using Machine Learning A predictive maintenance tool that uses sensor data and a Random Forest model to detect potential equipment failures in real-time. Built with Python and Streamlit.
+# IoT Sensor Failure Detection
+
+A machine learning model to predict failures from embedded sensor data using Random Forest.
+
+## Features
+- Data preprocessing
+- Feature selection
+- RandomForest model
+- Streamlit UI for testing
+
+## How to Run
+```bash
+python preprocess_sensor_data.py
+python train_model.py
+streamlit run app.py
